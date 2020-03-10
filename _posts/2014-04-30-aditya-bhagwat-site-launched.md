@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aditya Bhagwat, Launches Website"
+title: "Aditya Bhagwat, Updates Website"
 date: 2014-04-30
 ---
 
