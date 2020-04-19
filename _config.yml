@@ -1,5 +1,5 @@
-title: Max Chadwick
-url: https://maxchadwick.xyz
+title: Aditya Bhagwat
+url: https://razered.github.io/
 permalink: /blog/:title
 markdown: kramdown
 paginate: 6
@@ -12,11 +12,11 @@ defaults:
     values:
       sitemap: false
 
-author: "Max Chadwick"
+author: "Aditya Bhagwat"
 twitter:
   username: maxpchadwick
 
-author: maxpchadwick
+author: razered
 
 collections:
   - projects
