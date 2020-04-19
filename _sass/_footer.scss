@@ -1,0 +1,25 @@
+.footer {
+    padding: 9px;
+    color: white;
+    text-align: center;
+    background-color: $color-bg-pop-alt;
+    margin-top: 50px;
+    flex: none;
+
+    p {
+      margin-bottom: 0.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+        color: $color-bg-pop-link;
+        text-decoration: underline;
+
+        &:hover {
+          color: $color-bg-pop-link-hover;
+        }
+    }
+}
