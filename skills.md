@@ -22,8 +22,8 @@ The following is a list of technologies I know and like using.
 - Bash
 
 ### Frameworks & Platforms
-- Django
 - AWS - Lambda, Kinesis, SNS, SES, CloudWatch, CloudTrail
+- Django
 - Celery
 - Spring MVC
 - WordPress
