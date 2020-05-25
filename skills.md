@@ -9,48 +9,36 @@ redirect_from:
 
 ## Geeky Things I Like
 
-The following is a list of technologies I like and know.
-
-Each section is ordered by a blending my self-rated proficiency and my own personal interest. So the items that are highest on the list are those that I am most proficient _and_ interested in.
+The following is a list of technologies I know and like using.
 
 ### Languages
-- PHP
-- JavaScript
+- Python
+- C++
+- Java
 - SQL
-- SASS / CSS
+- Cypher
 - HTML
-- Go
 - Markdown
-- Ruby
 - Bash
 
 ### Frameworks & Platforms
-- Magento
-- Laravel
+- Django
+- AWS - Lambda, Kinesis, SNS, SES, CloudWatch, CloudTrail
+- Celery
+- Spring MVC
 - WordPress
 - Jekyll
-- ExpressJS
-- Sinatra
-- Rails
 
 ### Developer Tools
 - Sublime Text
 - Git / GitHub
 - UNIX shell
-- New Relic
-- Gulp
-- Grunt
+- Swagger/OpenAPI
 - Sequel Pro
-- Vagrant
-- Chrome Developer Tools
-- Google Analytics
-- Gatling
 
 ### Data Stores
 - MySQL
+- neo4j
 - Redis
-- InfluxDB
-- Solr
-- Prometheus
-- Elasticsearch
-- MongoDB
+- Aurora
+- DynamoDB
