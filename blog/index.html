@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 isBlog: true
-description: My blog. Where I write about security, performance and much more.
+description: This is where I host my machine learning projects.
 ---
 <h1>Blog</h1>
 
@@ -22,7 +22,8 @@ description: My blog. Where I write about security, performance and much more.
   {% endif %}
   {{post.excerpt}}
 	<div class="call-to-action-wrapper">
-        <a class="call-to-action" href="{{post.url}}">Read more</a>
+        <a class="call-to-action" href="{{post.url}}">Read more</a> 
+        <!-- <a href="{{ post.view_url }}" class="call-to-action"> View on GitHub </a> -->
     </div>
 </div>
 {% endfor %}
