@@ -1,5 +1,5 @@
 title: Aditya Bhagwat
-url: https://adityabhagwat.ai
+url: https://razered.github.io/
 permalink: /blog/:title
 markdown: kramdown
 paginate: 6
@@ -13,6 +13,7 @@ defaults:
       sitemap: false
 
 author: "Aditya Bhagwat"
+
 
 author: razered
 
