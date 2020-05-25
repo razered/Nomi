@@ -22,17 +22,21 @@ The following is a list of technologies I know and like using.
 - Bash
 
 ### Frameworks & Platforms
-- AWS - Lambda, Kinesis, SNS, SES, CloudWatch, CloudTrail
+- Pytorch
+- Colab
 - Django
+- AWS
 - Celery
-- Spring MVC
 - WordPress
 - Jekyll
+- Spring MVC
+
 
 ### Developer Tools
-- Sublime Text
-- Git / GitHub
-- UNIX shell
+- Jupyter Notebook
+- VS Code
+- Git
+- iTerm2 + oh-my-zsh
 - Swagger/OpenAPI
 - Sequel Pro
 
