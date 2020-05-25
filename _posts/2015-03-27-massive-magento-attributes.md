@@ -2,7 +2,7 @@
 layout: blog-single
 title: Massive Magento Attributes
 date: March 27, 2015
-tags: [Magento, Frontend]
+tags: [Magento, Frontend, Does not Already Exist] 
 view_url: https://razered.github.io/
 ---
 
