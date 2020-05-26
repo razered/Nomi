@@ -1,4 +1,6 @@
-## Portfolio
+## Note to readers
+
+Tell me what you like and don't like about this by <a class="inline-link" href="http://stackoverflow.com/questions/1639213/why-is-magento-so-slow"> mailing me</a>
 
 Created using Jekyll and GitHub Pages by referring to [this](http://jmcglone.com/guides/github-pages/) guide. 
 
