@@ -9,4 +9,4 @@ view_url: https://github.com/mpchadwick/jekyll-pre-commit
 call_to_action: View on Colab
 ---
 
-## Brief description
+Brief description

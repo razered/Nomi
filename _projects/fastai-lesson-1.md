@@ -1,5 +1,5 @@
 ---
-title: Fastai lesson 1 - Resnets and transfer learning
+title: Fast.ai lesson 1 - Resnets and transfer learning
 position: 50
 selected: true
 languages: Ruby
@@ -9,4 +9,4 @@ view_url: https://github.com/mpchadwick/jekyll-pre-commit
 call_to_action: View on Colab
 ---
 
-## Brief description
+Brief description
