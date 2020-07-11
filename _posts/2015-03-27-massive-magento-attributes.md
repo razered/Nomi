@@ -1,8 +1,8 @@
 ---
 layout: blog-single
-title: Massive Magento Attributes
+title: Learning language models through RNNs
 date: March 27, 2015
-tags: [Magento, Frontend, Does not Already Exist] 
+tags: [CNN, Computer Vision] 
 view_url: https://razered.github.io/
 ---
 
