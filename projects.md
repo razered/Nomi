@@ -15,7 +15,7 @@ redirect_from:
 
 <h2 id="{{ project.title | slugify }}">{{ project.title }}</h2>
 
-<!-- {{ project.content }} -->
+{{ project.content }}
 
 <a href="{{ project.view_url }}" class="call-to-action">{{ project.title }}</a>
 
