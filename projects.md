@@ -7,7 +7,7 @@ redirect_from:
   - /projects/
 ---
 
-# Blog
+# Projects
 
 {% assign sorted_projects = site.projects | sort: 'position' %}
 
