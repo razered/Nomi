@@ -17,7 +17,7 @@ redirect_from:
 
 {{ project.content }}
 
-<a href="{{ project.view_url }}" class="call-to-action">{{ project.title }}</a>
+<a href="{{ project.view_url }}" class="call-to-action">{{ project.call_to_action}}</a>
 
 {% endfor %}
 
