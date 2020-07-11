@@ -2,6 +2,8 @@
 title: Unused
 position: 50
 selected: true
+date: March 27, 2015
+tags: [CNN, Computer Vision] 
 languages: Ruby
 tags: Jekyll
 description: I don't intend to publish this project ever.
