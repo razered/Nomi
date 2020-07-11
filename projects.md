@@ -4,7 +4,7 @@ title: Projects
 description: Things I've built and associated source code.
 body-class: projects
 redirect_from:
-  - projects/
+  - /projects/
 ---
 
 # Projects
