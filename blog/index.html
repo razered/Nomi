@@ -8,7 +8,7 @@ description: This is where I host my machine learning projects.
 
 {% for post in paginator.posts %}
 <div class="post-summary">
-	<p><h2 class="alignleft"><a href="{{post.url}}">{{post.title}}</a></h2>  <h4 class="alignright">{{post.date | date: "%B %-d, %Y"}}</h4> </p>
+  <h2 class="alignleft"><a href="{{post.url}}">{{post.title}}</a></h2> 
   <!-- {% if post.tags.size > 0 %}
   <div class="tags-list">
     <strong>Tags:</strong>
