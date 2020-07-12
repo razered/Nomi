@@ -1,5 +1,5 @@
 ---
-title: node2vec - learning node representations through random walks
+title: node2vec, core numbers, random walks
 position: 50
 selected: true
 languages: Ruby

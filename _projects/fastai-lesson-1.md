@@ -1,5 +1,5 @@
 ---
-title: Fast.ai lesson 1 - Resnets and transfer learning
+title: Resnets and transfer learning
 position: 50
 selected: true
 languages: Ruby

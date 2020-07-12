@@ -1,5 +1,5 @@
 ---
-title: SVM on tf-idf + word vectors to classify long sequences
+title: Training SVMs on long sequences
 position: 50
 selected: true
 languages: Python
