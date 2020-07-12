@@ -6,19 +6,22 @@
     // margin-top: 50px;
     flex: none;
     // position: fixed;
-    bottom: 0;
+    // bottom: 0;
     width: 100%;
 
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+
+    p {
+      margin-bottom: 0;
 
 
-    // p {
-    //   margin-bottom: 0;
-
-
-    //   &:last-child {
-    //     margin-bottom: 0;
-    //   }
-    // }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
 
     a {
         color: $color-bg-pop-link;
