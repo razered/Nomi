@@ -27,7 +27,6 @@ redirect_from:
 <div class="clear"></div>
 </div>
 
-
 {% endfor %}
 </div>       
 <!-- end of block -->
