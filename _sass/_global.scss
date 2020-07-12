@@ -19,8 +19,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1, h2, h3, h4, h5, p, pre, blockquote, ul, ol, hr {
+h1 {
     margin-bottom: 1em;
+}
+
+h2, h3, h4, h5, p, pre, blockquote, ul, ol, hr {
+    margin-bottom: 0.5em;
 }
 h1, h2 {
     word-wrap: break-word;

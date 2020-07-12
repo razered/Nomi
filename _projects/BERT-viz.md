@@ -10,4 +10,4 @@ view_url: https://colab.research.google.com/drive/1mhzs8dNJ3HkCygkA1KNORpCJAeL3c
 call_to_action: View on Colab
 ---
 
-This started out as a way to investigate why I failed to make true transfer learning working on BERT and led me to study explainability and interpretability for transformers more generally. 
+This started out as a way to investigate why I failed to make true transfer learning work on BERT and led me to study explainability and interpretability for transformers more generally. 
