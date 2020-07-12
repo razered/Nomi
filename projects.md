@@ -11,20 +11,21 @@ redirect_from:
 
 {% assign sorted_projects = site.projects | sort: 'position' %}
 
+<!-- start block -->
+<div id="projectbox"> 
 {% for project in sorted_projects %}
 
-<div>
-<img src='http://ecx.images-amazon.com/images/I/21-leKb-zsL._SL500_AA300_.png' class='iconDetails'>
-
-<h2 class='projectTitle'>{{ project.title }}</h2>
-<p> {{ project.content }} </p>
-<a href="{{ project.view_url }}" class="call-to-action" style="float:right;font-size:1em">{{ project.call_to_action}}</a>
-
-</div>
-
+<!-- start product -->       
+<div class="project">
+<div class="product_img"><img src="http://thumbs.ebaystatic.com/images/m/m4JYJFjgp9rwTii4MicWiDA/s-l225.jpg"></div>
+<div class="product_content"> 
+  <div class="product_title"><a href="">NWT New Polo Ralph Loren Adjustable Strap Pony Logo Baseball Hat Cap 1 Size</a></div>
+  <div class="clear"></div>
+  <div class="product_special">Free Shipping ! 30 Day Warranty ! USA Seller</div>
+<div class="clear"></div>
 
 
 
 {% endfor %}
-
-
+</div>       
+<!-- end of block -->
