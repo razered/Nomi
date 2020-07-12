@@ -10,4 +10,4 @@ view_url: https://colab.research.google.com/drive/1mhzs8dNJ3HkCygkA1KNORpCJAeL3c
 call_to_action: View on Colab
 ---
 
-How do you classify long paragraphs of text into multiple classes? Naive Bag of Words (BoW) cannot do semantic modelling - synonyms are treated as separate words. Also, the document vectors they output balloon in size very quickly. I use TF-IDF and word2vec together to arrive at rich document vectors that are separable by SVMs.
+How do you classify long paragraphs of text into multiple classes? Naive Bag of Words (BoW) cannot do semantic modelling - synonyms are treated as separate words. Also, the document vectors they output balloon in size very quickly. I use TF-IDF and word2vec together to arrive at rich document vectors that can be classified by SVMs.

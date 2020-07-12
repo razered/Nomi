@@ -4,7 +4,7 @@ position: 50
 selected: true
 languages: Python
 tags: word2vec
-description: Random walks, node2vec and core numbers 
+description: node2vec, random walks, core numbers 
 image: node2vec.gif
 view_url: https://github.com/razered/core2vec
 call_to_action: View on GitHub
