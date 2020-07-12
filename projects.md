@@ -18,7 +18,9 @@ redirect_from:
 <!-- start product -->       
 <div class="project">
   <div class="project_img">
+  <a href="{{ project.view_url }}">
     <img src="{{site.url}}/img/projects/{{project.image}}" class="wh-auto">
+  </a>
   </div>
   <div class="project_content"> 
     <h2 id="{{ project.title | slugify }}" class="project_title"><a href="{{ project.view_url }}">{{ project.title }}</a></h2>
