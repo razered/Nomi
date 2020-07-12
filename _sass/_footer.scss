@@ -1,38 +1,26 @@
 .footer {
-    padding: 9px;
-    color: white;
-    text-align: center;
-    background-color: $color-bg-pop-alt;
-    // margin-top: 50px;
-    flex: none;
-    // position: fixed;
-    // bottom: 0;
-    width: 100%;
+  padding: 9px;
+  color: white;
+  text-align: center;
+  background-color: $color-bg-pop-alt;
+  margin-top: 50px;
+  flex: none;
 
+  p {
+    margin-bottom: 0.5em;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
-    p {
-      position: absolute;
-      height: 50px;
-      bottom: 0;
-      // margin-bottom: 0;
+  a {
+      color: $color-bg-pop-link;
+      text-decoration: underline;
 
-
-      &:last-child {
-        position: absolute;
-        height: 50px;
-        bottom: 0;
-        // margin-top: -100px;
-        // margin-bottom: 0;
+      &:hover {
+        color: $color-bg-pop-link-hover;
       }
-    }
-
-    a {
-        color: $color-bg-pop-link;
-        text-decoration: underline;
-
-        &:hover {
-          color: $color-bg-pop-link-hover;
-        }
-    }
+  }
 }
+
