@@ -1,18 +1,24 @@
 .footer {
-    padding: 9px;
+    // padding: 9px;
     color: white;
     text-align: center;
     background-color: $color-bg-pop-alt;
-    margin-top: 50px;
+    // margin-top: 50px;
     flex: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
-    p {
-      margin-bottom: 0;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
+
+    // p {
+    //   margin-bottom: 0;
+
+
+    //   &:last-child {
+    //     margin-bottom: 0;
+    //   }
+    // }
 
     a {
         color: $color-bg-pop-link;
