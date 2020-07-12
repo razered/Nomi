@@ -10,4 +10,4 @@ view_url: https://colab.research.google.com/drive/1OnpXriRyRc9IQvm5LThD0R1PBtpQc
 call_to_action: View on Colab
 ---
 
-Transformers are remarkable because they were the first to make transfer learning possible for language tasks, which, until then had been limited to some areas in computer vision. Here I attempt to train a BERT on just 6000 odd examples to be able to identify the industry to which a company belongs based on a description of its business.
+What is remarkable about transformers is that they were the first to make transfer learning possible for language tasks, which, until then had been limited to some areas in computer vision. Here, I attempt to train a BERT network on just over 6000 training examples on the task of identifying the industry to which a company belongs based on a textual description of its business.
