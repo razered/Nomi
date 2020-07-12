@@ -13,9 +13,8 @@ The following is a list of technologies I know and like using.
 
 ### Languages
 - Python
-- C++
-- Java
-- SQL
+- Typescript
+- Haskell
 - Cypher
 - HTML
 - Markdown
@@ -27,9 +26,7 @@ The following is a list of technologies I know and like using.
 - Django
 - AWS
 - Celery
-- WordPress
 - Jekyll
-- Spring MVC
 
 
 ### Developer Tools
@@ -43,6 +40,5 @@ The following is a list of technologies I know and like using.
 ### Data Stores
 - MySQL
 - neo4j
-- Redis
 - Aurora
 - DynamoDB
