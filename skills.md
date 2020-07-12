@@ -7,11 +7,9 @@ redirect_from:
 ---
 # Skills
 
-## Geeky Things I Like
-
 The following is a list of technologies I know and like using.
 
-### Languages
+## Languages
 - Python
 - Typescript
 - Haskell
@@ -20,7 +18,7 @@ The following is a list of technologies I know and like using.
 - Markdown
 - Bash
 
-### Frameworks & Platforms
+## Frameworks & Platforms
 - Pytorch
 - Colab
 - Django
@@ -29,7 +27,7 @@ The following is a list of technologies I know and like using.
 - Jekyll
 
 
-### Developer Tools
+## Developer Tools
 - Jupyter Notebook
 - VS Code
 - Git
@@ -37,7 +35,7 @@ The following is a list of technologies I know and like using.
 - Swagger/OpenAPI
 - Sequel Pro
 
-### Data Stores
+## Data Stores
 - MySQL
 - neo4j
 - MongoDB

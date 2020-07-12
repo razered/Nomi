@@ -24,7 +24,6 @@ redirect_from:
     <h2 id="{{ project.title | slugify }}" class="project_title"><a href="{{ project.view_url }}">{{ project.title }}</a></h2>
     <div class="clear"></div>
     <div class="project_overview">{{ project.content }}</div>
-    <!-- <a href="{{ project.view_url }}" class="call-to-action">{{ project.call_to_action }}</a> -->
     <div class="clear"></div>
   </div>
 </div>
