@@ -2,17 +2,22 @@
   .iconDetails {
     margin-left: 2%;
     float: left; 
+    margin-right: 10%;
     height: 100px;
     width: 100px; 
   } 
 
-  .container2 {
-    width:100%;
-    height:auto;
-    padding:1%;
+  // .container2 {
+  //   width:100%;
+  //   height:auto;
+  //   padding:1%;
+  // }
+
+  .projectTitle {
+    margin-left: 5%;
   }
 
-  // li p {
-  //   margin-bottom: 0;
-  // }
+  li p {
+    margin-bottom: 0;
+  }
 }

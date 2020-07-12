@@ -16,7 +16,7 @@ redirect_from:
 <li>
 <img src='http://ecx.images-amazon.com/images/I/21-leKb-zsL._SL500_AA300_.png' class='iconDetails'>
 
-<h2>{{ project.title }}</h2>
+<h2 class='projectTitle'>{{ project.title }}</h2>
 <div style="font-size:1em">{{ project.content }}</div>
 <a href="{{ project.view_url }}" class="call-to-action" style="float:right;font-size:1em">{{ project.call_to_action}}</a>  -
 
