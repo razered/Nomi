@@ -89,10 +89,5 @@
         {% include social-links.html %}
         <p><strong>&copy; {{ site.time | date: '%Y' }} Max Chadwick</strong></p>
     </div>
-    {% if jekyll.environment == 'production' %}
-      {% assign ga = site.ga.prod %}
-    {% else %}
-      {% assign ga = site.ga.dev %}
-    {% endif %}
 </body>
 </html>
