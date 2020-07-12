@@ -37,9 +37,9 @@
 <body{% if page.body-class %} class="{{page.body-class}}"{% endif %}>
     {% include icons.html %}
     {{ content }}
+    <div class="footer">
+        <p>If there's a specific topic you're looking to read about try <a href="/tags/">browsing by tag</a>.</p>
+        {% include social-links.html %}
+    </div>
 </body>
-<div class="footer">
-    <p>If there's a specific topic you're looking to read about try <a href="/tags/">browsing by tag</a>.</p>
-    {% include social-links.html %}
-</div>
 </html>
