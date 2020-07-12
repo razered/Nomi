@@ -5,7 +5,7 @@ selected: true
 languages: Ruby
 tags: word2vec
 description: node2vec, core numbers, random walks
-image: img/projects/SVM.png
+image: SVM.png
 view_url: https://github.com/razered/core2vec
 call_to_action: View on GitHub
 ---
