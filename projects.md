@@ -18,7 +18,7 @@ redirect_from:
 <!-- start product -->       
 <div class="project">
   <div class="project_img">
-    <img src="http://thumbs.ebaystatic.com/images/m/m4JYJFjgp9rwTii4MicWiDA/s-l225.jpg">
+    <img src="{{}}">
   </div>
   <div class="project_content"> 
     <h2 id="{{ project.title | slugify }}" class="project_title">{{ project.title }}</h2>
