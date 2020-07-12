@@ -1,5 +1,5 @@
 ---
-title: Random walks, node2vec and core numbers 
+title: node2vec, random walks, core numbers 
 position: 50
 selected: true
 languages: Python
