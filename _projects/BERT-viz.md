@@ -10,5 +10,4 @@ view_url: https://colab.research.google.com/drive/1mhzs8dNJ3HkCygkA1KNORpCJAeL3c
 call_to_action: View on Colab
 ---
 
-Brief description
-
+This started out as a 
