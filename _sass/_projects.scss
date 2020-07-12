@@ -20,8 +20,8 @@
   .project {
     width: 100%;
     float: left;
-    padding-bottom: 8px;
-      margin-bottom:10px;
+    padding-bottom: 12px;
+    margin-bottom:10%;
   }
   .project_img {
     float: left;
@@ -32,6 +32,7 @@
   }
   .project_content {
     float: left;
+    margin-top: 10px;
     margin-left: 12px;
     width: 552px;
     text-align: left;
@@ -40,12 +41,12 @@
     float: left;
     margin-top: -2px;
     text-align: left;
-    color: #0654ba;
+    // color: #0654ba;
   }
   .project_overview{
     float: left;
     margin-top: 6px;
     font-size: 14px;
-    color: #767676;
+    // color: #767676;
   }
 }
