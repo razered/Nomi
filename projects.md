@@ -18,7 +18,7 @@ redirect_from:
 <!-- start product -->       
 <div class="project">
   <div class="project_img">
-  <a href="{{ project.view_url }}">
+  <a href="{{ project.view_url }}" title="{{ project.call_to_action}}">
     <img src="{{site.url}}/img/projects/{{project.image}}" class="wh-auto">
   </a>
   </div>
