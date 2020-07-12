@@ -1,5 +1,5 @@
 ---
-title: Resnets and transfer learning
+title: ResNets and transfer learning
 position: 50
 selected: true
 languages: Ruby
