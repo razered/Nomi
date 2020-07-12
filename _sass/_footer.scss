@@ -12,18 +12,17 @@
 
 
     p {
-      clear: both;
-      position: relative;
-      height: 100px;
-      margin-top: -100px;
+      position: absolute;
+      height: 50px;
+      bottom: 0;
       // margin-bottom: 0;
 
 
       &:last-child {
-        clear: both;
-        position: relative;
-        height: 100px;
-        margin-top: -100px;
+        position: absolute;
+        height: 50px;
+        bottom: 0;
+        // margin-top: -100px;
         // margin-bottom: 0;
       }
     }
