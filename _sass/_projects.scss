@@ -46,7 +46,7 @@
   .project_content {
     float: left;
     margin-left: 20px;
-    width: 480px;
+    width: 450px;
     text-align: left;
   }
   .project_title {
@@ -55,6 +55,7 @@
   }
   .project_overview{
     float: left;
+    font-size: small;
     // margin-bottom: 20px;
   }
 }
