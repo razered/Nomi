@@ -21,18 +21,19 @@
     height: 200px;
     overflow: hidden;
     border-radius: 20px;
+    padding: 5px;
     border: 1px solid #e4e4e4;
   }
   // .project_img :hover { 
   //   border: 1px solid rgb(0, 19, 129); 
   // } 
 
-  .imagedropshadow {
-    padding: 5px;
-    border: solid 1px #EFEFEF;
-  }
+  // .imagedropshadow {
+  //   padding: 5px;
+  //   border: solid 1px #EFEFEF;
+  // }
 
-  .project_img:hover img.imagedropshadow {
+  .project_img :hover {
     border: solid 1px #CCC;
     -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
