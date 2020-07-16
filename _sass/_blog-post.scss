@@ -1,8 +1,12 @@
 .blog-post-wrapper {
   @media (min-width: 920px) {
+    h2 {
+      margin-bottom: 1em;
+    }
+
     p, h3, h4, div.edits {
       max-width: 780px;
-      margin-left: 10px;
+      // margin-left: 10px;
 
       /* Negate the styling for images */
       img:not(.emoji) {
