@@ -6,4 +6,4 @@ tags: [Python]
 view_url: https://razered.github.io/
 ---
 
-## Fill this up
+examples of elegant code through functools like my validator code

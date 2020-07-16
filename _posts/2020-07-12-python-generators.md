@@ -6,4 +6,5 @@ tags: [Python]
 view_url: https://razered.github.io/
 ---
 
-## Fill this up
+any
+all
