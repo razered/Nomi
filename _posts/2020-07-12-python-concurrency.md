@@ -21,7 +21,8 @@ Now, CPython has some interesting quirks - the developers decided against allowi
 
 ## Achieving true parallelism - multiprocessing vs multithreading
 One way to achieve speed boosts on CPU-bound programs is through using multiple processes through the `multiprocessing` module available in Python. Why does this not suffer from the same problems as multi-threading? Simple, because each process has it's own GIL. But why do developers lament about GIL if this is a perfectly functional solution? That's because using multiple processes is not _really_ the same as using multiple threads. 
-- You do not have access to shared memory so you have to rely on pickling and unpickling objects to share information and so on. 
-- Difference 2
-- Difference 3
-But, it gets the job done. 
+- Threads live in the same memory space whereas all processes have a separate memory space. You can have shared memory between threads but this is not possible for processes. So, in the case of multiprocessing one has to rely on IPC constructs given by the OS or pickling and unpickling objects to share information.
+- Threads are often described as as lightweight processes. This means they require fewer resources, are faster to spawn and have a smaller operational overhead. 
+- The advantage of multiprocessing is that individual processes are interruptible and killable but the same cannot be said about threads.
+
+These things must be kept in mind before one implements a concurrent solution in Python.
