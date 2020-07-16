@@ -6,11 +6,11 @@ tags: [Python]
 view_url: https://razered.github.io/
 ---
 
-
+## Introduction 
 There is a lot of misinformation about Python and it's handling of concurrency and parallelism that leads to a lot of confusion for beginners approaching the subject for the first time. Let us first understand what we mean by concurrency and parallelism.
 
 ## Concurrency and Parallelism
-Concurrent execution means that the start and end times of two or more segments of the program overlap. Parallelism means that there is simultaneous computation happening on two or more segments of the code at the same time. Parallelism necessitates the existence of multi-core CPUs or some other kind of redundancy in hardware, while concurrency is a more high level construct that makes no such demand. It follows that parallelism implies concurrency but not vice versa. Look at the illustration below for more clarity.
+Concurrent execution means that the start and end times of two or more independent segments of the program overlap. Parallelism means that there is simultaneous computation happening on two or more segments of the code at the same time. Parallelism necessitates the existence of multi-core CPUs or some other kind of redundancy in hardware, while concurrency is a more high level construct that makes no such demand. It follows that parallelism implies concurrency but not vice versa. Look at the illustration below for more clarity.
 
 ## CPython, multi-threading and GIL
 Which of the two above does Python support? Depends on the implementation. The implementation of your program? No, the implementation of the _language_ itself. Let me explain.
