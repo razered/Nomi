@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Python is single-threaded! Or is it?
+title: Concurrency in Python
 date: July 10, 2020
 tags: [Python] 
 view_url: https://razered.github.io/

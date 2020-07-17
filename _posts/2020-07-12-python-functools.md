@@ -1,9 +1,14 @@
 ---
 layout: blog-single
-title: Prettier Python using functools
+title: Prettier Python 
 date: July 12, 2020
 tags: [Python]
 view_url: https://razered.github.io/
 ---
 
-examples of elegant code through functools like my validator code
+## Philosophy of Python
+
+## Functional paradigms - map, filter, lambda, unpacking tuples
+
+## Functools locals and globals
+
