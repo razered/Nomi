@@ -53,3 +53,6 @@ pre-commit:
 
 
 github: [metadata]
+
+repository: razered/razered.github.io
+
