@@ -1,5 +1,5 @@
 title: Aditya Bhagwat
-url: https://razered.onrender.com
+url: https://nomi.onrender.com
 permalink: /blog/:title
 markdown: kramdown
 paginate: 6
@@ -54,5 +54,5 @@ pre-commit:
 
 github: [metadata]
 
-repository: razered/razered.github.io
+repository: razered/Nomi
 
