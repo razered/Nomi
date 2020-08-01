@@ -1,6 +1,6 @@
 ## Know me!
 
-I use this website to maintain a portfolio of my side-projects and also blogging about the new things I learnt that I am fascinated by. :halo:
+I use this website to maintain a portfolio of my side-projects and to blog about the fascinating new things I'm learning :innocent:
 
 Tell me what you like and don't like about my website by <a class="inline-link" href=mailto:bhagwat.work@gmail.com> mailing me</a>
 
