@@ -1,9 +1,11 @@
 ---
 layout: blog-single
-title: Simplicity and ease in Python and Haskell
+title: Snippets of Python 
 date: July 12, 2020
 tags: [Python]
 ---
 
-## Examples of code
+
+The naive imperative way to invert a matrix would be as follows
+While the cool functional way is far more terse
 
