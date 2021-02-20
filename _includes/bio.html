@@ -1,0 +1,14 @@
+{% if include.is_home %}
+	<h2 class="home-featured-content-section__header">
+{% else %}
+	<p><img class="tout__avatar" src="/img/me.jpg" alt="Aditya Bhagwat"><strong>
+{%endif%}
+	Hi, I'm Aditya!
+{% if include.is_home %}
+	</h2>
+{% else %}
+	</strong></p>
+{%endif%}
+<p>I love fiddling with large neural networks and trying to get them to "understand" our world. I document my <a href="/projects">efforts</a> and <a href="/blogs/">learnings</a> here.</p>
+<p>I consider myself a Pythonista who is slowly falling in love with Haskell and Typescript. </p>
+<p>If you'd like to get in touch with me, the best way is <a href="mailto:bhagwat.work@gmail.com">via email</a>.</p>
