@@ -10,7 +10,7 @@ description: Programming languages, frameworks, platforms, data stores and tools
 The following is a list of technologies I know and like using.
 
 
-| ## Languages        | ## Frameworks           | ## Tools  | ## Data stores
+| Languages        | Frameworks           | Tools  | Data stores
 | :-------------:|:-------------:|:-----:|:-----:|
 | col 3 is      | right-aligned | $1600 | MySQL |
 | col 2 is      | centered      |   $12 | neo4j |
