@@ -9,29 +9,33 @@ description: Programming languages, frameworks, platforms, data stores and tools
 
 The following is a list of technologies I know and like using.
 
+
+| ## Languages        | ## Frameworks           | ## Tools  | ## Data stores
+| :-------------:|:-------------:|:-----:|:-----:|
+| col 3 is      | right-aligned | $1600 | MySQL |
+| col 2 is      | centered      |   $12 | neo4j |
+| zebra stripes | are neat      |    $1 | MongoDB |
+
+
 ## Languages
 - Python
 - Typescript
 - Haskell
-- Cypher
-- HTML
-- Markdown
+- Racket
+- Java
 - Bash
 
 ## Frameworks & Platforms
-- Pytorch
-- Colab
+- Node
+- Spring JPA
 - Django
+- Pytorch
 - AWS
 - Celery
-- Jekyll
-
 
 ## Developer Tools
 - Jupyter Notebook
-- VS Code
-- Git
-- iTerm2 + oh-my-zsh
+- Robo3T
 - Swagger/OpenAPI
 - Sequel Pro
 
@@ -39,3 +43,4 @@ The following is a list of technologies I know and like using.
 - MySQL
 - neo4j
 - MongoDB
+- Redis

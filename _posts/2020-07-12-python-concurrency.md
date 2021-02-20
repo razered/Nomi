@@ -3,7 +3,6 @@ layout: blog-single
 title: Concurrency in Python
 date: July 10, 2020
 tags: [Python] 
-view_url: https://razered.github.io/
 ---
 
 ## Introduction 
