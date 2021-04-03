@@ -9,6 +9,10 @@
     word-wrap: break-word;
 
     .post-summary {
+        h2 {
+            display: inline;
+        }
+        display: inline;
         margin-bottom: 30px;
     }
 }

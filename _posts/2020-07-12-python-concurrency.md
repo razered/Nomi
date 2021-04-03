@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Concurrency in Python
+title: Parallelism in Python
 date: July 10, 2020
 tags: [Python] 
 ---
@@ -26,4 +26,4 @@ One way to achieve speed boosts on CPU-bound programs is through using multiple 
 - Threads are often described as as lightweight processes. This means they require fewer resources, are faster to spawn and have a smaller operational overhead. 
 - The advantage of multiprocessing is that individual processes are interruptible and killable but the same cannot be said about threads.
 
-These things must be kept in mind before one implements a concurrent solution in Python.
+These things must be kept in mind before one implements a parallel solution in Python.

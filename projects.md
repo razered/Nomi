@@ -9,6 +9,13 @@ body-class: projects
 
 # Projects
 
+<div class="tout tout--secondary">
+<p> Code that demonstrates interesting ideas from machine learning or computer science </p> 
+<!-- or mini applications -->
+</div> 
+
+<br>
+
 {% assign sorted_projects = site.projects | sort: 'position' %}
 
 <!-- start block -->

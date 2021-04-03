@@ -6,19 +6,27 @@ description: This is where I host my machine learning projects.
 ---
 <h1>Blog</h1>
 
+<div class="tout tout--secondary">
+  <p> Tutorials, musings and miscellaneous enlightenments. </p>
+  </div> 
+<br>
+
 {% for post in paginator.posts %}
 <div class="post-summary">
-  <h2 class="alignleft"><a href="{{post.url}}">{{post.title}}</a></h2> 
-  <!-- {% if post.tags.size > 0 %}
-  <div class="tags-list">
-    <strong>Tags:</strong>
+<h2 class="alignleft"><a href="{{post.url}}">{{post.title}}</a></h2> 
+{% if post.tags.size > 0 %}
+  <span class="tags-list">
+    <!-- <strong>Tags:</strong> -->
     <ul>
       {% for tag in post.tags %}
-      <li><a href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+      <li>
+        <a href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
     </ul>
-  </div>
-  {% endif %} -->
+  </span> 
+  {% endif %}  
+  <br>
+  <br>
   <!-- {{post.excerpt}} -->
 	<!-- <div class="call-to-action-wrapper">
         <a class="call-to-action" href="{{post.url}}">Read more</a> 
