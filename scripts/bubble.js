@@ -1,8 +1,9 @@
 (function() {
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)    
-    var width = 800;
-    var height = 800;
+    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)  
+    console.log(vw, vh)  
+    var width = 0.45*vw;
+    var height = 0.8*vh;
 
     var svg = d3.select(".chart")
                 .append("svg")
