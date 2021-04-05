@@ -24,6 +24,7 @@
                   .style("position", "absolute")
 
     var showTooltip = function(d) {
+        d3.select(this).attr("r", 1.2 * radiusScale(d.size))
     tooltip
         .transition()
         .duration(200)
@@ -42,6 +43,7 @@
       }
 
     var hideTooltip = function(d) {
+        d3.select(this).attr("r", radiusScale(d.size))
         tooltip
           .transition()
           .duration(100)

@@ -4,8 +4,8 @@ haskell,Haskell,img/skills/tools/haskell.png,6,https://www.haskell.org/
 typescript,Typescript,img/skills/tools/typescript.png,8,https://www.typescriptlang.org/
 racket,Racket,img/skills/tools/racket.svg,6,https://racket-lang.org/
 java,Java,img/skills/tools/java.png,9,https://www.oracle.com/in/java/
-docker,Docker,img/skills/tools/docker.png,5,https://www.docker.com/
-node,Node,img/skills/tools/node.png,6,https://nodejs.org/en/
+docker,Docker,img/skills/tools/docker.png,6,https://www.docker.com/
+node,Node,img/skills/tools/node.png,8,https://nodejs.org/en/
 spring,Spring,img/skills/tools/spring.png,8,https://spring.io/projects/spring-boot
 django,Django,img/skills/tools/django.png,7,https://www.djangoproject.com/
 pytorch,Pytorch,img/skills/tools/pytorch.png,7,https://pytorch.org/
@@ -17,3 +17,5 @@ mongodb,MongoDB,img/skills/tools/mongodb.png,5,https://www.mongodb.com/
 mysql,MySQL,img/skills/tools/mysql.png,7,https://www.mysql.com/
 neo4j,Neo4j,img/skills/tools/neo4j.png,4,https://neo4j.com/
 redis,Redis,img/skills/tools/redis.jpg,5,https://redis.io/
+git,Git,img/skills/tools/git.png,4,https://git-scm.com/
+jenkins,Jenkins,img/skills/tools/jenkins1.png,4,https://www.jenkins.io/
