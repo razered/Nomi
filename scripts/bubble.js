@@ -12,6 +12,43 @@
                 .append("g")
                 .attr("transform", "translate(0,0)")
 
+
+    var tooltip = d3.select(".chart")
+                .append("div")
+                  .style("opacity", 0)
+                  .attr("class", "tooltip")
+                  .style("background-color", "black")
+                  .style("border-radius", "5px")
+                  .style("padding", "10px")
+                  .style("color", "white")
+                  .style("position", "absolute")
+
+    var showTooltip = function(d) {
+    tooltip
+        .transition()
+        .duration(200)
+    tooltip
+        .style("opacity", 1)
+        .html(d.name)
+        .style("left", (d3.mouse(this)[0]+120) + "px")
+        .style("top", (d3.mouse(this)[1]+160) + "px")
+    }
+
+    var moveTooltip = function(d) {
+        tooltip
+          .style("opacity", 1)
+          .style("left", (d3.mouse(this)[0]+120) + "px")
+          .style("top", (d3.mouse(this)[1]+160) + "px")
+      }
+
+    var hideTooltip = function(d) {
+        tooltip
+          .transition()
+          .duration(100)
+          .style("opacity", 0)
+      }
+            
+
     var defs = svg.append("defs");
 
     var radiusScale = d3.scaleSqrt().domain([1, 11]).range([10, 80])
@@ -70,12 +107,18 @@
                   '_blank' 
                 );
             })
-            .on("mouseover", function(d) {
-                d3.select(this).attr("r", 1.2 * radiusScale(d.size))
-            })
-            .on("mouseout", function(d) {
-                d3.select(this).attr("r", radiusScale(d.size))
-            })
+            .on("mouseover", showTooltip)
+            .on("mousemove", moveTooltip)
+            .on("mouseout", hideTooltip)
+            // .on("mouseover", function(d) {
+            //     d3.select(this).attr("r", 1.2 * radiusScale(d.size))
+            //     return showTooltip
+            // })
+            // .on("mousemove", moveTooltip )
+            // .on("mouseout", function(d) {
+            //     d3.select(this).attr("r", radiusScale(d.size))
+            //     return hideTooltip
+            // })
 
 
         simulation.nodes(datapoints)
