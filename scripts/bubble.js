@@ -13,14 +13,14 @@
                 .attr("transform", "translate(0,0)")
 
 
-    var tooltip = d3.select(".chart")
-                .append("div")
+    var tooltip = d3.select(".label")
                   .style("opacity", 0)
                   .attr("class", "tooltip")
-                  .style("background-color", "black")
-                  .style("border-radius", "5px")
-                  .style("padding", "10px")
-                  .style("color", "white")
+                //   .style("background-color", "black")
+                //   .style("border-radius", "5px")
+                //   .style("padding", "10px")
+                  .style("color", "black")
+                  .style("display", "inline")
                   .style("position", "absolute")
 
     var showTooltip = function(d) {
@@ -29,16 +29,16 @@
         .duration(200)
     tooltip
         .style("opacity", 1)
-        .html(d.name)
-        .style("left", (d3.mouse(this)[0]+120) + "px")
-        .style("top", (d3.mouse(this)[1]+160) + "px")
+        .html("   " + d.name)
+        // .style("left", (d3.mouse(this)[0]) + "px")
+        // .style("top", (d3.mouse(this)[1]) + "px")
     }
 
     var moveTooltip = function(d) {
         tooltip
           .style("opacity", 1)
-          .style("left", (d3.mouse(this)[0]+120) + "px")
-          .style("top", (d3.mouse(this)[1]+160) + "px")
+        //   .style("left", (d3.mouse(this)[0]) + "px")
+        //   .style("top", (d3.mouse(this)[1]) + "px")
       }
 
     var hideTooltip = function(d) {

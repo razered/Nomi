@@ -14,7 +14,7 @@ body-class: skills
 
 <!-- or mini applications -->
 </div> 
-
+<div style="padding:10px text-decoration:underline" > <b>Technology</b>&nbsp;:&nbsp;&nbsp;<div class="label"></div> </div>
 <div class="chart"></div>
 <!-- <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
