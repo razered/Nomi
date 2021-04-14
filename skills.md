@@ -10,7 +10,7 @@ body-class: skills
 # Skills
 
 <div class="tout tout--secondary">
-<p> Here are the technologies I have experience in. Find details of past employment in my resume <a href="https://drive.google.com/file/d/1FtsqfEGkxXgcLETegz7227zdJFWPPXEO/view?usp=sharing" target="_blank">here.</a></p> 
+<p> Here are the technologies I have experience in. Find details of past employment in my resume <a href="https://drive.google.com/file/d/1AIt580Jr3QZLlrzi5ca1_po924hSXREm/view?usp=sharing" target="_blank">here.</a></p> 
 
 <!-- or mini applications -->
 </div> 
