@@ -1,11 +1,16 @@
 ---
 layout: blog-single
-title: Snippets of Python 
+title: Functional Python
 date: July 12, 2020
 tags: [Python]
 ---
 
 
-The naive imperative way to invert a matrix would be as follows
-While the cool functional way is far more terse
-
+Spiral matrices
+pairs of consecutive elements
+accumulate? nah too basic
+some nice list comprehensions perhaps
+product of lists, Haskell comparison
+permutation implemented via recursion and generators (link to generators tut)
+"next permutation"?
+both product and permutation from library - compare sources?

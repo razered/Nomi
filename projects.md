@@ -10,7 +10,7 @@ body-class: projects
 # Projects
 
 <div class="tout tout--secondary">
-<p> Code that demonstrates interesting ideas from machine learning or computer science </p> 
+<p> Small applications I built in my free time to play around with new technology</p> 
 <!-- or mini applications -->
 </div> 
 
